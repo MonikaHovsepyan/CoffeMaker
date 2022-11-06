@@ -1,0 +1,100 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: poppins;
+}
+
+body {
+    background-color: #c6a195;
+}
+
+@font-face {
+    font-family: poppins;
+    src: url(./fonts/Poppins/Poppins-Regular.ttf);
+}
+
+.main {
+    width: 600px;
+    border: 1px solid #2F4F4F;
+    margin: 20px 0 0 370px;
+    background-color: #ffe4c4;
+}
+
+#display {
+    height: 10vh;
+    background-color: #672009;
+    opacity: 0.8;
+    color: #000;
+    font-size: 25px;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 10px;
+}
+
+#money {
+    height: 45px;
+    width: 100%;
+    padding-left: 35%;
+    border: 1px solid #2F4F4F;
+    background-color: #fad4a7;
+    outline: none;
+    font-size: 25px;
+}
+
+.sugar {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 5px;
+    border-bottom: 1px solid #2F4F4F;
+}
+
+.part {
+    margin-right: 7px;
+    width: 25px;
+    height: 25px;
+    border-radius: 25%;
+    text-align: center;
+}
+
+button {
+    width: 25px;
+    height: 25px;
+    background-color: #b1583a;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #752e24;
+}
+
+.coffee {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 15px;
+}
+
+.drinks {
+    width: 25%;
+    height: 40px;
+    margin: 20px;
+    border: 1px solid #2F4F4F;
+    font-size: 13px;
+    background-color: #b1583a;
+    text-align: center;
+    cursor: pointer;
+}
+
+.drinks:hover {
+    background-color: #752e24;
+}
+
+#change {
+    height: 7vh;
+    background-color: #672009;
+    border-top: 1px solid #2F4F4F;
+    text-align: center;
+    padding: 7px;
+    font-weight: 700;
+}
